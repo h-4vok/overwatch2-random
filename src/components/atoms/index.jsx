@@ -1,7 +1,4 @@
-export { Title } from './Title'
-export { BlockInput } from './BlockInput'
-export { StretchedButton } from './StretchedButton'
-export { CircularProgressIcon } from './CircularProgressIcon'
-export { Label } from './Label'
-export { FungibleTokenThumbnail } from './FungibleTokenThumbnail'
-export { ShareTwitterButton } from './ShareTwitterButton'
+export { Title } from "./Title";
+export { StretchedButton } from "./StretchedButton";
+export { Label } from "./Label";
+export { ShareTwitterButton } from "./ShareTwitterButton";

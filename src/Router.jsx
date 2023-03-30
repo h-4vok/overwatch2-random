@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
-import { HomePage, LiveMonitorPage } from "./components/pages";
+import { RandomGeneratorPage } from "./components/pages";
 import NotFound from "./components/pages/Errors/404";
 import { homeLink, liveMonitorLink } from "./lib/constants";
 import { createTheme, ThemeProvider } from "@material-ui/core";
@@ -16,8 +16,7 @@ const Router = ({ children }) => {
     <ThemeProvider theme={darkTheme}>
       <HashRouter>
         <Switch>
-          <Route exact path={homeLink} component={HomePage} />
-          <Route phat={liveMonitorLink} component={LiveMonitorPage} />
+          <Route exact path={homeLink} component={RandomGeneratorPage} />
           <Route component={NotFound} />
           {children}
         </Switch>

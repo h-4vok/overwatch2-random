@@ -1,2 +1,2 @@
-export { FungibleTokenRow } from './FungibleTokenRow';
-export { BasicModal } from './BasicModal';
+export { BasicModal } from "./BasicModal";
+export { HeroPresenter } from "./HeroPresenter";

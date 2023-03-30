@@ -1,2 +1,1 @@
-export { HomePage } from './HomePage';
-export { LiveMonitorPage } from './LiveMonitorPage';
+export { RandomGeneratorPage } from "./RandomGeneratorPage";
