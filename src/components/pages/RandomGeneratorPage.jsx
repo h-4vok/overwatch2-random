@@ -32,7 +32,7 @@ export const RandomGeneratorPage = () => {
         own. Enjoy!
       </Title>
       <Title variant="h6">&nbsp;</Title>
-
+      <StretchedButton onClick={onRandomizeClick}>Randomize</StretchedButton>
       <Box className="box">
         <Grid container spacing={3}>
           <Grid item xs={12} md={3}>
