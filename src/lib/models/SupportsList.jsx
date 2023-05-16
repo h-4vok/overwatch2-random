@@ -9,4 +9,5 @@ export const SupportsList = [
   new Character("Mercy", "mercy.png"),
   new Character("Moira", "moira.png"),
   new Character("Zenyatta", "zenyatta.png"),
+  new Character("Lifeweaver", "lifeweaver.png"),
 ];
