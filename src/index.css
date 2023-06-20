@@ -26,6 +26,20 @@ code {
   font-style: italic !important;
 }
 
+@media (max-width: 768px) {
+  h6.title {
+    font-size: 0.7em !important;
+  }
+
+  h3.title {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 0.6em !important;
+  }
+}
+
 .text-align--center {
   text-align: center;
 }

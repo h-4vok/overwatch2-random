@@ -35,28 +35,28 @@ export const RandomGeneratorPage = () => {
       <StretchedButton onClick={onRandomizeClick}>Randomize</StretchedButton>
       <Box className="box">
         <Grid container spacing={3}>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={6} md={3}>
             <HeroPresenter
               heroName={selectedTank.heroName}
               heroImgUrl={selectedTank.heroImgUrl}
               selectionType="Tank"
             />
           </Grid>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={6} md={3}>
             <HeroPresenter
               heroName={selectedDps.heroName}
               heroImgUrl={selectedDps.heroImgUrl}
               selectionType="DPS"
             />
           </Grid>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={6} md={3}>
             <HeroPresenter
               heroName={selectedSupport.heroName}
               heroImgUrl={selectedSupport.heroImgUrl}
               selectionType="Support"
             />
           </Grid>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={6} md={3}>
             <HeroPresenter
               heroName={selectedOpen.heroName}
               heroImgUrl={selectedOpen.heroImgUrl}

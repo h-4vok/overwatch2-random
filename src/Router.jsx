@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import { RandomGeneratorPage } from "./components/pages";
 import NotFound from "./components/pages/Errors/404";
-import { homeLink, liveMonitorLink } from "./lib/constants";
+import { homeLink } from "./lib/constants";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 
 const darkTheme = createTheme({

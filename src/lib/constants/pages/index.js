@@ -1,5 +1,4 @@
-const homeHash = "#/"
-const homeLink = "/"
-const liveMonitorLink = "/monitor";
+const homeHash = "#/";
+const homeLink = "/";
 
-export { homeHash, homeLink, liveMonitorLink }
+export { homeHash, homeLink };
